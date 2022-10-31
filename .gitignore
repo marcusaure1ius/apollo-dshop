@@ -1,0 +1,7 @@
+.idea
+venv
+.ipynb_checkpoints
+settings.py
+*.ipynb
+main.py
+/apollo_dshop.egg-info
