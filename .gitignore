@@ -5,3 +5,4 @@ settings.py
 *.ipynb
 main.py
 /apollo_dshop.egg-info
+/dist
