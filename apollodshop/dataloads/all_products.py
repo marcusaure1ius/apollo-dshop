@@ -4,7 +4,7 @@ from typing import List, Tuple
 from aiographql.client import GraphQLClient
 from tqdm import tqdm
 
-from .gql_requests import get_products
+from apollodshop.gql_requests import get_products
 
 
 def get_all_products(client: GraphQLClient, categories: List) -> Tuple[List, List]:

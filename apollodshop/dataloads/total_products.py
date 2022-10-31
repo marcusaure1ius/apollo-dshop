@@ -4,7 +4,7 @@ from typing import List
 from aiographql.client import GraphQLClient
 from tqdm import tqdm
 
-from .gql_requests import get_total_product_by_category_id
+from apollodshop.gql_requests import get_total_product_by_category_id
 
 
 def get_total_products_info(client: GraphQLClient, categories: List) -> List:
